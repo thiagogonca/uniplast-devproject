@@ -1,0 +1,18 @@
+--> sudo chmod -R 777 uniplast *to folders* --> Change permission on all the files in a directory recursively
+
+You might have heard of chmod 777. This command will give read, write and execute permission to the owner, group and public.
+
+chmod 755: Only owner can write, read and execute for everyone
+
+https://linuxhandbook.com/chmod-command/
+
+https://stackoverflow.com/questions/41795384/how-do-i-give-composer-permission-to-create-folders-in-var-www-html
+
+
+for copy folders you must use "-R" option , try it :
+
+cp -Rv Folder /var/www/html
+
+-R for copy folders
+
+-v for see what folders and files are copied
